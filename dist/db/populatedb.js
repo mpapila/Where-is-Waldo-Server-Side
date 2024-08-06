@@ -52,7 +52,7 @@ function main() {
     return __awaiter(this, void 0, void 0, function* () {
         console.log("seeding...");
         const client = new Client({
-            connectionString: `postgresql://u_94553736_7018_4664_a5fc_b50e03599f64:B5lnsfq221kDvg0qZqd43Zf8Or97bn62652Cl87Ob04lpPYjdoP8@pg.rapidapp.io:5433/db_94553736_7018_4664_a5fc_b50e03599f64?ssl=true&sslmode=no-verify&application_name=rapidapp_nodejs`,
+            connectionString: process.env.DATABASE_URL,
         });
         yield client.connect();
         yield client.query(SQL);
