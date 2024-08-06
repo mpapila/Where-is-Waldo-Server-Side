@@ -4,7 +4,7 @@
 The "Where-is-Waldo" server is a backend application built with Express and TypeScript to manage the scoreboard and validate the positions of Waldo in a game. The server connects to a PostgreSQL database to store and retrieve data.
 
 ## Client Repository
-[Where-is-Waldo-Server-Side
+[Where-is-Waldo-Client-Side
 ](https://github.com/mpapila/Where-is-Waldo-Client-Side)
 
 ## Features
